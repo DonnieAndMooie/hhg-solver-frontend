@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Answers from './Answers'
 
 const stadiums = [
     'Selhurst Park',
@@ -118,31 +119,43 @@ const teams = [
     'Brentford FC',
     'Luton Town'
   ]
-  
-  
+
 
 export default function Search() {
+    const [data, setData]= useState(null)
+
+    async function search(){
+        const team = document.getElementById("team").value
+        const stadium = document.getElementById("stadium").value
+        const response = await fetch(`https://calm-jade-cygnet-wear.cyclic.app/answer/${team}/${stadium}`)
+        const actualData = await response.json()
+        setData(actualData)
+        console.log(data)        
+    }
   return (
     <div className='container'>
     <div className='search'>
         <label htmlFor="team">Team:</label>
         <select name="team" id="team">
-            {teams.map((team) => {
+            <option value="">Please Select</option>
+            {teams.sort().map((team) => {
                 return(
-                    <option value={team}>{team}</option>
+                    <option key={team} value={team}>{team}</option>
                 )
             })}
         </select>
         <label htmlFor="stadium">Stadium:</label>
         <select name="stadium" id="stadium">
-        {stadiums.map((stadium) => {
+            <option value="">Please Select</option>
+        {stadiums.sort().map((stadium) => {
                 return(
-                    <option value={stadium}>{stadium}</option>
+                    <option key={stadium} value={stadium}>{stadium}</option>
                 )
             })}
         </select>
     </div>
-        <button>Solve</button>
+        <button onClick={search}>Solve</button>
+        <Answers data={data}/>
     </div>
 
   )
