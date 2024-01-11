@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hhg-solver-frontend/static/css/main.2a750d1e.css",
+    "main.js": "/hhg-solver-frontend/static/js/main.09a4beef.js",
+    "static/media/flag.jpeg": "/hhg-solver-frontend/static/media/flag.11a52d42897f438bd47e.jpeg",
+    "static/media/BebasNeue-Regular.ttf": "/hhg-solver-frontend/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "/hhg-solver-frontend/index.html",
+    "main.2a750d1e.css.map": "/hhg-solver-frontend/static/css/main.2a750d1e.css.map",
+    "main.09a4beef.js.map": "/hhg-solver-frontend/static/js/main.09a4beef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a750d1e.css",
+    "static/js/main.09a4beef.js"
+  ]
+}
