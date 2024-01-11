@@ -27,3 +27,45 @@ header{
   border-bottom: 2px solid white;
   font-family: "Bebas", Arial, Helvetica, sans-serif;
 }
+
+.search{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 250px 1fr;
+  font-size: 20px;
+  justify-items: center;
+  margin-top: 32px;
+  gap: 18px;
+}
+
+
+select{
+  width: 800px;
+  font-size: 32px;
+}
+
+label{
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 200px;
+  font-size: 24px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+button:hover{
+  background-color: rgb(0, 255, 0);
+}
