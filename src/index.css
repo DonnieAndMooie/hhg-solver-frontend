@@ -26,6 +26,8 @@ header{
   background-color: rgb(2, 169, 225);
   border-bottom: 2px solid white;
   font-family: "Bebas", Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .search{
@@ -40,7 +42,7 @@ header{
 
 
 select{
-  width: 800px;
+  width: 60vw;
   font-size: 32px;
 }
 
@@ -105,4 +107,19 @@ button:hover{
   font-family: sans-serif;
   font-weight: bold;
   padding-top: 32px;
+}
+
+@media (max-width: 700px){
+  header{
+    font-size: 24px;
+  }
+
+  header img{
+    height: 120px;
+  }
+
+  .match{
+    width: 95vw;
+
+  }
 }
