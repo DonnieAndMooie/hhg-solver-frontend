@@ -48,7 +48,7 @@ const stadiums = [
     'Etihad Stadium',
     'DW Stadium',
     'Emirates Stadium',
-    'Select Car Leasing Stadium',
+    'Madejski Stadium',
     'bet365 Stadium',
     'KCOM Stadium',
     'Turf Moor',
