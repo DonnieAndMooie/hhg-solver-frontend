@@ -129,8 +129,7 @@ export default function Search() {
         const stadium = document.getElementById("stadium").value
         const response = await fetch(`https://calm-jade-cygnet-wear.cyclic.app/answer/${team}/${stadium}`)
         const actualData = await response.json()
-        setData(actualData)
-        console.log(data)        
+        setData(actualData)   
     }
   return (
     <div className='container'>
