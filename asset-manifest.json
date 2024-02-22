@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hhg-solver-frontend/static/css/main.c9369cc7.css",
-    "main.js": "/hhg-solver-frontend/static/js/main.5dfe8f32.js",
+    "main.js": "/hhg-solver-frontend/static/js/main.0b31295f.js",
     "static/media/flag.jpeg": "/hhg-solver-frontend/static/media/flag.11a52d42897f438bd47e.jpeg",
     "static/media/BebasNeue-Regular.ttf": "/hhg-solver-frontend/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "index.html": "/hhg-solver-frontend/index.html",
     "main.c9369cc7.css.map": "/hhg-solver-frontend/static/css/main.c9369cc7.css.map",
-    "main.5dfe8f32.js.map": "/hhg-solver-frontend/static/js/main.5dfe8f32.js.map"
+    "main.0b31295f.js.map": "/hhg-solver-frontend/static/js/main.0b31295f.js.map"
   },
   "entrypoints": [
     "static/css/main.c9369cc7.css",
-    "static/js/main.5dfe8f32.js"
+    "static/js/main.0b31295f.js"
   ]
 }
