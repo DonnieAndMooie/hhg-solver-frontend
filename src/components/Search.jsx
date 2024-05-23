@@ -127,7 +127,7 @@ export default function Search() {
     async function search(){
         const team = document.getElementById("team").value
         const stadium = document.getElementById("stadium").value
-        const response = await fetch(`https://calm-jade-cygnet-wear.cyclic.app/answer/${team}/${stadium}`)
+        const response = await fetch(`https://hhg-solver-api-production.up.railway.app/answer/${team}/${stadium}`)
         const actualData = await response.json()
         setData(actualData)   
     }
